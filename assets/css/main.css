@@ -636,14 +636,14 @@ input, select, textarea {
 
 	.image:before {
 		pointer-events: none;
-		background-image:url("../../images/overlay.png");
-		background-color: rgba(19, 21, 25, 0.5);
+		/*background-image:url("../../images/overlay.png");
+		background-color: rgba(19, 21, 25, 0.5);*/
 		border-radius: 4px;
 		content: '';
 		display: block;
 		height: 100%;
 		left: 0;
-		opacity: 0.5;
+		opacity: 1;
 		position: absolute;
 		top: 0;
 		width: 100%;
@@ -694,7 +694,7 @@ input, select, textarea {
 			width: 100%;
 		}
 
-	@media screen and (max-width: 736px) {
+	/*@media screen and (max-width: 736px) {
 
 		.image.main {
 			margin: 2rem 0;
@@ -706,7 +706,7 @@ input, select, textarea {
 
 		.image.main {
 			margin: 1.5rem 0;
-		}
+		}*/
 
 	}
 
